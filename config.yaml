@@ -1,0 +1,12 @@
+---
+ipset_reason:
+  blacklist: "Has been blacklisted manually. Could mean client IP exhibited bad behaviour in the past."
+  f2b-sshd:  "Tried connecting to our the daemon, resulting in failed attempts."
+  f2b-nginx: "Rate limited by Nginx too much, then banned by fail2ban. Probably too many connections."
+  carbonblack: "IP is found in a connectivity whitelist for Carbon Black."
+listen:
+  ip: 0.0.0.0
+  port: 80
+#tls:
+#  cert: ./fullchain.pem
+#  key: ./privkey.pem
