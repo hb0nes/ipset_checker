@@ -19,3 +19,7 @@ env_logger = "0.10.0"
 log = "0.4.17"
 regex = "1.7.0"
 
+[profile.release]
+lto = true
+codegen-units = 1
+panic = "abort"
