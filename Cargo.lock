@@ -111,24 +111,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "ban-checker"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "axum",
- "axum-server",
- "env_logger",
- "log",
- "once_cell",
- "regex",
- "rustc-hash",
- "serde",
- "serde_yaml",
- "tokio",
- "tower-http",
-]
-
-[[package]]
 name = "base64"
 version = "0.13.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -374,6 +356,24 @@ checksum = "46112a93252b123d31a119a8d1a1ac19deac4fac6e0e8b0df58f0d4e5870e63c"
 dependencies = [
  "libc",
  "windows-sys",
+]
+
+[[package]]
+name = "ipset-management"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "axum",
+ "axum-server",
+ "env_logger",
+ "log",
+ "once_cell",
+ "regex",
+ "rustc-hash",
+ "serde",
+ "serde_yaml",
+ "tokio",
+ "tower-http",
 ]
 
 [[package]]
